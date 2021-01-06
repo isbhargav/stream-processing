@@ -20,5 +20,19 @@ you can let a module like `'pipeline'`or `.pipe()` take care of calling those. I
 
 You can also use new async genrator to process a readable stream.
 
-Link to file : [rstream.js]('./../rstream.js')
+Link to file : [rstream.js](./../rstream.js)
+
+# Writable Stream
+
+
+Writable Streams are sink of Data.
+
+Any stream you can write to (writable, transform, duplex) stream. Writable stream has these methods
+
+
+- `.write(data)`
+- `.end()`
+- `.end(data)`
+- `.on('finish',)`
+- `.(...).pipe(stream)`
 
