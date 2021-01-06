@@ -20,7 +20,7 @@ you can let a module like `'pipeline'`or `.pipe()` take care of calling those. I
 
 You can also use new async genrator to process a readable stream.
 
-Link to file : [rstream.js](./../rstream.js)
+Link to file : [rstream.js](rstream.js)
 
 # Writable Stream
 
