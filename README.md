@@ -36,3 +36,13 @@ Any stream you can write to (writable, transform, duplex) stream. Writable strea
 - `.on('finish',)`
 - `.(...).pipe(stream)`
 
+You can also use a async genrator to consume a writable stream.
+Link to file : [wrstream.js](wstream.js)
+
+# Transform stream
+
+Transform streams are readable + Writeable where they are used to perform some transformation operation between readable and writable stream.
+
+`readable -> transform -> writable`
+
+It has all the methods of input and output stream.
