@@ -1,5 +1,5 @@
 # stream-processing
- Exmaples and Notes on working with Stream with Nodejs
+Exmaples and Notes on working with Stream with Nodejs.
 
 
 # Readable stream
